@@ -1,4 +1,5 @@
 pipeline{
+    agent any
     enviroment{
         DEMO='1.3'
     }
