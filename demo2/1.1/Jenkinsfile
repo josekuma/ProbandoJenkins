@@ -14,7 +14,10 @@ pipeline{
             }
         }
         stage('Test'){
-           echo "testing I can see release ${RELEASE}"
+            steps{
+                 echo "testing I can see release ${RELEASE}"
+
+            }
         }
     }
 }
